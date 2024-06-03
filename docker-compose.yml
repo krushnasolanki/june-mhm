@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  serviceA:
+  servicea:
     build:
-      context: ./serviceA
+      context: ./servicea
     ports:
       - "5001:5001"
     environment:
@@ -11,9 +11,9 @@ services:
     depends_on:
       - otel-collector
 
-  serviceB:
+  serviceb:
     build:
-      context: ./serviceB
+      context: ./serviceb
     ports:
       - "5002:5002"
     environment:
