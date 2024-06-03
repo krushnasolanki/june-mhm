@@ -2,4 +2,4 @@ FROM python:3.9-slim
 WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
-CMD ["python", "serviceB.py"]
+CMD ["python", "serviceb.py"]
